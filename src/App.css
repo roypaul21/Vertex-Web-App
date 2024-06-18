@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vertex-container{
+    background-color: #F0F0F5;
+}
+
+/* Navbar */
+#app-nav-bar{
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: 0 160px 0 160px;
+    
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.font--link{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+
+
+/* Hero Section */
+#hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 160px 0 160px;
+}
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.hero-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #031D34;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+#hero-content {
+    position: relative;
+    z-index: 3;
+}
+
+.header-one{
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#hero-content > button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: #031D34;
+    font-weight: 700;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Who We Are Section*/
+#who-we-are{
+    padding: 90px;
+}
+
+.wwa-heading{
+    font-size: 80px;
+    font-weight: bold;
+    color: #1663A7;
+}
+
+/* Division Section */
+.division-header{
+    font-size: 80px;
+    font-weight: bold;
+    color: #1663A7
+}
+
+.division-subheader{
+    color: #1663A7;
+}
+
+.division-text{
+    font-weight: lighter;
+    color: #1663A7
+}
+
+#division--proj {
+    background-image: linear-gradient(rgba(22, 99, 167, 0.7), rgba(22, 99, 167, 0.7)), url("/images/division/proj_div.png");
+    position: relative;
+    overflow: hidden;
+}
+
+#division--proj {
+    background-image: linear-gradient(rgba(22, 99, 167, 0.7), rgba(22, 99, 167, 0.7)), url("/images/division/proj_div.png");
+    position: relative;
+    overflow: hidden;
+}
+
+#division--proj {
+    background-image: linear-gradient(rgba(22, 99, 167, 0.7), rgba(22, 99, 167, 0.7)), url("/images/division/proj_div.png");
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#division--sales {
+    background-image: linear-gradient(rgba(22, 99, 167, 0.7), rgba(22, 99, 167, 0.7)), url("/images/division/sales_div.png");
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#division--eng {
+    background-image: linear-gradient(rgba(22, 99, 167, 0.7), rgba(22, 99, 167, 0.7)), url("/images/division/engine_div.png");
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.division--card {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    z-index: 1;
+    opacity: 1;
+}
+
+#division-btn {
+    background-color: #1663A7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.business-div:hover .bg-overlay {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.business-div:hover #division-btn{
+    background-color: white;
+    color: #1663A7;
+}
+
+.business-div:hover .division-header, 
+.business-div:hover .division-subheader, 
+.business-div:hover .division-text{
+    color: white !important;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Home Partners */
+#home-partners {
+    width: 100%;
+    padding: 5rem 0 10rem 0;
+    background-color: #F0F0F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#partners-wrapper {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#partners-container {
+    display: flex;
+    animation: slide 10s linear infinite;
+}
+
+#partners-container img {
+    width: clamp(5rem, 12vw, 15rem);
+    margin: 0 2rem;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Footer Section */
+#footer-section {
+    background-color: #545454;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #app-nav-bar{
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        margin: 0 60px 0 60px;
+    }
+    #hero-section {
+        padding: 0 60px 0 60px;
+    }
+
+    .header-one{
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .wwa-heading{
+        font-size: 40px;
+    }
+
+    .wwa-subheading{
+        font-size: 28px;
+        font-weight: lighter !important;
+    }
+
+    .division-header{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #app-nav-bar{
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        margin: 0 20px 0 20px;
+    }
+
+    #hero-section {
+        padding: 0 20px 0 20px;
+    }
+
+    .header-one{
+        font-size: 60px;
+        font-weight: bold;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .wwa-heading{
+        font-size: 40px;
+    }
+
+    .wwa-subheading{
+        font-size: 24px;
+        font-weight: lighter !important;
+    }
+}
+
