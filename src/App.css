@@ -8,6 +8,9 @@
     background-color: #F0F0F5;
 }
 
+button {
+    border:none;
+}
 /* Navbar */
 #app-nav-bar{
     border-bottom-left-radius: 60px;
@@ -221,6 +224,23 @@
 /* Footer Section */
 #footer-section {
     background-color: #545454;
+}
+
+#contact-us{
+    max-width: 600px;
+    min-width: 400px;
+}
+
+#contact-us input{
+    border: 1px solid gray;
+}
+
+#contact-icon {
+    font-size: 20px;
+}
+
+#footer-icons {
+    font-size: 45px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
