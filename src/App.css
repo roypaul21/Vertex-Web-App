@@ -11,6 +11,11 @@
 button {
     border:none;
 }
+
+.container-full{
+    height: 100vh;
+}
+
 /* Navbar */
 #app-nav-bar{
     border-bottom-left-radius: 60px;
@@ -32,7 +37,7 @@ button {
 #hero-section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    
     overflow: hidden;
     padding: 0 160px 0 160px;
 }
@@ -243,6 +248,88 @@ button {
     font-size: 45px;
 }
 
+/* Engineer Division */
+#hero-engineer {
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/engineer/hero-engineer.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 0 160px 0 160px;
+    width: 100%;
+}
+
+#engineer-service{
+    width: 70%;
+    min-width: 600px;
+}
+
+.text-justify-content {  
+    letter-spacing: 2px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.division-heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1663A7
+}
+
+.services {
+    position: relative;
+    overflow-y:hidden;
+}
+
+.services > img {
+    z-index: 2;
+}
+.services > .service-content{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    margin-left: 10%;
+    z-index: 1;
+    background-color: #1663A7;
+}
+#engineers{
+    overflow: hidden;
+}
+
+#enginner-one{
+    background-image: linear-gradient(rgba(6, 68, 122, 0.6), rgba(6, 68, 122, 0.6)), url("/public/images/engineer/engineer-1.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#enginner-two{
+    background-image: linear-gradient(rgba(6, 68, 122, 0.6), rgba(6, 68, 122, 0.6)), url("/public/images/engineer/engineer-2.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#enginner-three{
+    background-image: linear-gradient(rgba(6, 68, 122, 0.6), rgba(6, 68, 122, 0.6)), url("/public/images/engineer/engineer-3.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#engineers h5 {
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#engineers h1 {
+    color: #1663A7;
+}
+
+/*---- Responsive Design -----*/
 @media screen and (min-width: 768px) and (max-width: 1024px){
     #app-nav-bar{
         border-bottom-left-radius: 40px;

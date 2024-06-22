@@ -9,6 +9,10 @@ const router = createBrowserRouter([
         Component: lazy(() => import("./pages/Home"))
     },
     {
+        path: "/engineer-division", 
+        Component: lazy(() => import("./pages/EngineerDivision"))
+    },
+    {
         path: "*",
         Component: lazy(() => import('./pages/Error.jsx'))
     }
