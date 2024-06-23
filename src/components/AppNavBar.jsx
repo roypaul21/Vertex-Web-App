@@ -11,7 +11,7 @@ export default function AppNavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" id='nav-bar-link-container'>
-            <Nav.Link to="/about-us" className='font--link'>About Us</Nav.Link>
+            <Link to="/about-us" className="font--link nav-link">About Us</Link>
             <NavDropdown title="Business Division" className='font--link' id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/sales-division">Sales Division</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/engineer-division">Engineer Division</NavDropdown.Item>

@@ -438,6 +438,16 @@ button {
     left: -100%; /* Slide the overlay to the left when hovered */
 }
 
+/* About Us */
+#hero-about{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/about/hero-about.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 0 160px 0 160px;
+    width: 100%;
+}
 
 /*---- Size Responsive Design -----*/
 @media screen and (min-width: 768px) and (max-width: 1024px){
