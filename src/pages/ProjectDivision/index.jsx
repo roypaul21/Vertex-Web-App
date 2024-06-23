@@ -7,6 +7,7 @@ export default function ProjectDivision(){
         <>
             <HeroSection />
             <TurnkeyProjects />
+            <hr className="m-0"/>
             <GasProject />
         </>
     )
