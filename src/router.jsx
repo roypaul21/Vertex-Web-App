@@ -6,12 +6,27 @@ import { lazy } from 'react';
 const router = createBrowserRouter([
     {
         path: "/",
-        Component: lazy(() => import("./pages/Home"))
+        Component: lazy(() => import('./components/Layout.jsx')),
+        children: [
+            {
+                path: "",
+                Component: lazy(() => import("./pages/Home"))
+            },
+            {
+                path: "/engineer-division", 
+                Component: lazy(() => import("./pages/EngineerDivision"))
+            },
+            {
+                path: "/sales-division", 
+                Component: lazy(() => import("./pages/SalesDivision"))
+            },
+            {
+                path: "/project-division", 
+                Component: lazy(() => import("./pages/ProjectDivision"))
+            }
+        ]
     },
-    {
-        path: "/engineer-division", 
-        Component: lazy(() => import("./pages/EngineerDivision"))
-    },
+    
     {
         path: "*",
         Component: lazy(() => import('./pages/Error.jsx'))

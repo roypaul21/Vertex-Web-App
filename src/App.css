@@ -16,6 +16,22 @@ button {
     height: 100vh;
 }
 
+.container-hidden{
+    overflow: hidden;
+}
+
+.header-color{
+    color: #1663A7;
+}
+
+.container-color{
+    background-color: #1663A7;;
+}
+
+.text-lighter{
+    font-weight: lighter;
+}
+
 /* Navbar */
 #app-nav-bar{
     border-bottom-left-radius: 60px;
@@ -202,7 +218,6 @@ button {
     white-space: nowrap;
     width: 100%;
     justify-content: center;
-    background-color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -261,7 +276,7 @@ button {
 
 #engineer-service{
     width: 70%;
-    min-width: 600px;
+    min-width: 400px;
 }
 
 .text-justify-content {  
@@ -329,7 +344,102 @@ button {
     color: #1663A7;
 }
 
-/*---- Responsive Design -----*/
+/* Sales Division */
+#hero-sales {
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/sales/sales-hero.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 0 160px 0 160px;
+    width: 100%;
+}
+
+#sales-1{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/sales/sales-1.png");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sales-2{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/sales/sales-2.png");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sales-3{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/sales/sales-3.png");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sales-4{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/sales/sales-4.png");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sales-5{
+    background-image: linear-gradient(rgba(22, 99, 167, 0.2), rgba(22, 99, 167, 0.2)), url("/public/images/sales/sales-5.png");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sales-content{
+    width: 60%;
+    min-width: 200px;
+}
+
+/* Project Division */
+
+#hero-project{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.6), rgba(3, 29, 52, 0.6)), url("/public/images/projects/project-hero.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 0 160px 0 160px;
+    width: 100%;
+}
+
+#project-content {
+    min-height: 100%;
+    border: 1px solid #1663A7;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1663A7;
+    opacity: 0.3;
+    z-index: 1;
+    transition: left 0.5s ease;
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden; /* Ensure the overlay doesn't overflow outside the container */
+}
+
+.card-img-container img {
+    display: block;
+    width: 100%;
+}
+
+.card-img-container:hover .image-overlay {
+    left: -100%; /* Slide the overlay to the left when hovered */
+}
+
+
+/*---- Size Responsive Design -----*/
 @media screen and (min-width: 768px) and (max-width: 1024px){
     #app-nav-bar{
         border-bottom-left-radius: 40px;
