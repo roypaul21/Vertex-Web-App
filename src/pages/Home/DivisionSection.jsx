@@ -1,4 +1,5 @@
 import { GrNext } from "react-icons/gr";
+import { Link } from 'react-router-dom';
 
 export default function DivisionSection(){
     return(
@@ -12,7 +13,9 @@ export default function DivisionSection(){
                             In sales division vertex provides the most comprehensive and innovative  Medical Equipment and Technology that will meet every customer and  facility's high-standard requirement.
                         </h4>
                         <div className="my-5">
-                            <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            <Link to="/sales-division">
+                                <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-overlay"></div>
@@ -24,7 +27,9 @@ export default function DivisionSection(){
                         <h4 className="division-text">
                             Vertex provides a full complement of repair, maintenance &  life-cycle Management Services for most medical equipment located  throughout hospitals and ancillary healthcare facilities.                        </h4>
                         <div className="my-5">
-                            <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            <Link to="/engineer-division">
+                                <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-overlay"></div>
@@ -37,7 +42,9 @@ export default function DivisionSection(){
                             In sales division vertex provides the most comprehensive and innovative  Medical Equipment and Technology that will meet every customer and  facility's high-standard requirement.
                         </h4>
                         <div className="my-5">
-                            <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            <Link to="/project-division">
+                                <button className="py-2 px-3" id="division-btn">Learn More</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="bg-overlay"></div>
