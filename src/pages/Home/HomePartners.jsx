@@ -1,7 +1,7 @@
 
 export default function HomePartners(){
     return(
-        <section id="home-partners" className="vertex-container py-5 px-0 container-fluid">
+        <section id="home-partners" className="bg-white py-5 px-0 container-fluid">
             <div id="partners-wrapper">
                 <div id="partners-container">
                     <img src="./images/partners/part1.png" className="img-fluid mx-5" width="200"/>
