@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function AppNavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary px-5 pt-5" id="app-nav-bar" fixed='top'>
+    <Navbar expand="lg" className="bg-body-tertiary px-5" id="app-nav-bar" fixed='top'>
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img src="/images/logo.png" alt="Vertex" width={280} height={80} className='img-fluid'/>

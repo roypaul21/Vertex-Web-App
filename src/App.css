@@ -38,7 +38,6 @@ button {
 
 /* Loader */
 
-
 /* Navbar */
 #app-nav-bar{
     border-bottom-left-radius: 60px;
@@ -47,14 +46,17 @@ button {
     
     box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
     z-index: 5;
+    transition: 0.5s linear;
+}
+
+#app-nav-bar:hover {
+    padding-top: 48px;
 }
 
 .font--link{
     font-size: 24px !important;
     font-weight: 700 !important;
 }
-
-
 
 /* Hero Section */
 #hero-section {
