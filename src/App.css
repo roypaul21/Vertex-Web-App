@@ -541,6 +541,25 @@ li:hover ul#submenu {
     width: 100%;
 }
 
+/* Contact Us Page*/
+#map {
+    width: 100%;
+    min-width: 400px;
+    height: 600px;
+}
+#office-hours{
+    width: 300px;
+}
+
+#office-hours td {
+    background-color: #F0F0F5;
+}
+
+#get-in-touch{
+    width: 60%;
+    min-width: 500px;
+}
+
 /*---- Size Responsive Design -----*/
 @media screen and (min-width: 768px) and (max-width: 1024px){
     #app-nav-bar{
@@ -575,6 +594,10 @@ li:hover ul#submenu {
     .division-header{
         font-size: 40px;
     }
+
+    #map {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -601,6 +624,10 @@ li:hover ul#submenu {
     .wwa-subheading{
         font-size: 24px;
         font-weight: lighter !important;
+    }
+
+    #map {
+        height: 400px;
     }
 }
 

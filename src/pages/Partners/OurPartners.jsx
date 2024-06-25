@@ -4,7 +4,7 @@ export default function OurPartners(){
     return(
         <section className="vertex-container container-fluid p-5">
             <div className="row p-5 justify-content-center gap-sm-2 gap-md-2">
-            <div className="col-md-3 col-sm-auto mb-md-4">
+            <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-2.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -15,7 +15,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-3.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -26,7 +26,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-4.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -37,7 +37,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>         
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-5.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -48,7 +48,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-6.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -59,7 +59,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-7.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -70,7 +70,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>         
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part8.png" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -81,7 +81,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part9.png" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -92,7 +92,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part10.png" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
@@ -103,7 +103,7 @@ export default function OurPartners(){
                         </Card.Body>
                     </Card>
                 </div>       
-                <div className="col-md-3 col-sm-auto mb-md-4">
+                <div className="col-md-3 col-sm-auto mb-md-4 mb-2">
                     <Card className="min-height-100">
                         <Card.Img variant="top" src="/images/partners/part-1.jpg" className='img-fluid'/>
                         <Card.Body className='bg-secondary'>
