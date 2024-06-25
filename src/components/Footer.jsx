@@ -16,7 +16,7 @@ export default function Footer(){
                     <div className="p-5 d-flex flex-column gap-4" id="contact-us">
                         <h1 className="text-white"><strong>GET IN TOUCH</strong></h1>
                         <div>
-                            <p className="text-white"><span className="me-1" id="contact-icon"><IoLocation/></span>Address: Abu Dhabi, United Arab Emirates ,P.O. Box 294149</p>
+                            <p className="text-white"><span className="me-1" id="contact-icon"><IoLocation/></span>Address: Abu Dhabi, United Arab Emirates, P.O. Box 294149</p>
                             <p className="text-white"><span className="me-1" id="contact-icon"><MdEmail/></span>Email: info@vertex-med.com</p>
                             <p className="text-white"><span className="me-1" id="contact-icon"><FaPhone/></span>Phone: +971 2 887 0667</p>
                             <p className="text-white"><span className="me-1" id="contact-icon"><FaFax/></span>FAX: +971 2 887 06 67</p>
@@ -32,7 +32,7 @@ export default function Footer(){
                 <div className="col-lg-6 col-md-auto row justify-content-center">
                     <div className=" p-5 d-flex flex-column gap-2" id="contact-us">
                         <input type="text" placeholder="Name" className="p-2 rounded" />
-                        <input type="text" placeholder="Mobile Numnber" className="p-2 rounded" />
+                        <input type="text" placeholder="Mobile Number" className="p-2 rounded" />
                         <input type="text" placeholder="Email Address" className="p-2 rounded" />
                         <input type="text" placeholder="Inquiry" className="p-2 rounded" />
                         <textarea type="text" rows="6" placeholder="Message" className="p-2 rounded"></textarea> 

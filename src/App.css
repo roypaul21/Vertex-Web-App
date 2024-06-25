@@ -53,6 +53,67 @@ button {
     padding-top: 48px;
 }
 
+#submenu{
+    position: absolute;
+    list-style: none;
+    left: 0;
+    width: 100%;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+#business-division-link{
+    cursor: pointer;
+}
+
+li:hover ul#submenu {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.submenu-link{
+    text-decoration: none;
+}
+
+#submenu h3 {
+    color: #1663A7 !important;
+    transition: color 0.3s linear;
+}
+
+#submenu > .submenu-link:hover h3 {
+    color: white !important;
+}
+
+#sales-link{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.5), rgba(3, 29, 52, 0.5)), url("/images/division/sales_div.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    transition: background-image 0.5s linear;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#project-link{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.5), rgba(3, 29, 52, 0.5)), url("/images/division/proj_div.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#engine-link{
+    background-image: linear-gradient(rgba(3, 29, 52, 0.5), rgba(3, 29, 52, 0.5)), url("/images/division/engine_div.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+
 .font--link{
     font-size: 24px !important;
     font-weight: 700 !important;
@@ -487,7 +548,12 @@ button {
         border-bottom-right-radius: 40px;
         margin: 0 60px 0 60px;
     }
-    #hero-section {
+
+    .font--link{
+        font-size: 18px !important;
+    }
+    
+    #hero-section { 
         padding: 0 60px 0 60px;
     }
 

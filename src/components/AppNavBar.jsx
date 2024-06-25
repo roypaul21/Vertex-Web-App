@@ -12,11 +12,20 @@ export default function AppNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" id='nav-bar-link-container'>
             <Link to="/about-us" className="font--link nav-link">About Us</Link>
-            <NavDropdown title="Business Division" className='font--link' id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/sales-division">Sales Division</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/engineer-division">Engineer Division</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/project-division">Project Division</NavDropdown.Item>
-            </NavDropdown>
+            <li><a className="font--link nav-link" id='business-division-link'>Business Division</a>
+              <ul id='submenu' className='row m-0 px-5 pt-md-4'>
+                <Link to="/sales-division" className='col-12 col-md-4 m-0 p-0 align-items-center justify-content-center d-flex submenu-link' id='sales-link'>
+                  <h3>Sales Division</h3>
+                </Link>
+                <Link as={Link} to="/engineer-division" className='col-12 col-md-4 m-0 p-0 align-items-center justify-content-center d-flex submenu-link' id='engine-link'>
+                  <h3>Engineering Division</h3>
+                </Link>
+                <Link  as={Link} to="/project-division" className='col-12 col-md-4 m-0 p-0 align-items-center justify-content-center d-flex submenu-link' id='project-link'>
+                  <h3>Project Division</h3>
+                </Link>      
+              </ul>
+            </li>
+            {/* <Link id='business-division-link' className="font--link nav-link">Business Division</Link> */}
             <Link to="/reference" className="font--link nav-link">Reference</Link>
             <Link to="/partners" className="font--link nav-link">Partners</Link>
             <Link to="/contact" className="font--link nav-link">Contact Us</Link>
@@ -24,5 +33,6 @@ export default function AppNavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   );
 }
